@@ -1,5 +1,6 @@
 <template>
     <div>
+         <b-button variant="outline-primary" @click="modalShow = !modalShow">Open Modal</b-button>
         <b-modal id="modal-lg" size="lg" v-model="modalShow " hide-footer>           
         <template v-slot:modal-title>
                 <span class="side_panel">
